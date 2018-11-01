@@ -1,0 +1,18 @@
+Relations: CMT
+
+Function dependencies: T -> C, CM -> T, 
+
+--------------------------- problem 1 ---------------------------
+
+All non-trivial functional dependencies ( #3 ) : 
+CM -> T, T -> C, MT -> C, 
+
+--------------------------- problem 2 ---------------------------
+
+BCNF violations ( #1 ) : 
+T -> C, 
+
+--------------------------- problem 3 ---------------------------
+
+The BCNF decomposed Relations ( #2 ) : 
+(MT), (CT), 

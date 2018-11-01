@@ -1,0 +1,18 @@
+Relations: ABCDE
+
+Function dependencies: AB -> C, C -> D, D -> BE, 
+
+--------------------------- problem 1 ---------------------------
+
+All non-trivial functional dependencies ( #23 ) : 
+AB -> CDE, C -> BDE, AC -> BDE, BC -> DE, ABC -> DE, D -> BE, AD -> BCE, BD -> E, ABD -> CE, CD -> BE, ACD -> BE, BCD -> E, ABCD -> E, ABE -> CD, CE -> BD, ACE -> BD, BCE -> D, ABCE -> D, DE -> B, ADE -> BC, ABDE -> C, CDE -> B, ACDE -> B, 
+
+--------------------------- problem 2 ---------------------------
+
+BCNF violations ( #10 ) : 
+C -> BDE, BC -> DE, D -> BE, BD -> E, CD -> BE, BCD -> E, CE -> BD, BCE -> D, DE -> B, CDE -> B, 
+
+--------------------------- problem 3 ---------------------------
+
+The BCNF decomposed Relations ( #3 ) : 
+(AC), (BDE), (CD), 
